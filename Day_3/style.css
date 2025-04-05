@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: outfit;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-image: url(https://i.pinimg.com/736x/de/4f/03/de4f0342a076c798a3a022ca932928a9.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+/* #imgBox .iplLogo{
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+
+} */
+ h1{
+    border: 2px solid white;
+    background-color: lightgray;
+    width: 550px;
+    border-radius: 10px;
+    font-weight: 500;
+ }
+
+h2{
+    padding: 20px 40px;
+    background-color: transparent;
+    margin: 10px 0;
+    font-size: 40px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+}
+#allDetails{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    width: 650px;
+    height: 250px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: #dadada;
+    
+}
+#allDetails .details{
+    text-decoration: solid;
+    font-size: 23px;
+    /* font-weight: 500; */
+    text-align: start;
+    /* color: #fff; */
+
+}
+#allDetails #iplImg{
+    height: 130px;
+    width: 140px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+button{
+    padding: 10px 20px;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 20px 0;
+}
+button:active{
+    scale: 0.95;
+}

@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#box{
+    height: 200px;
+    width: 200px;
+    background-color: lightgreen;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+button{
+    font-size: 17px;
+    padding: 10px 20px;
+    color: white;
+    background-color: royalblue;
+    border: none;
+    border-radius: 10px;
+}
